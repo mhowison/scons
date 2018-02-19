@@ -26,6 +26,10 @@ RELEASE 3.1.0.alpha.yyyymmdd - NEW DATE WILL BE INSERTED HERE
     - Remove long deprecated SCons.Options code and tests.  This removes BoolOption,EnumOption,
       ListOption,PackageOption, and PathOption which have been replaced by *Variable() many years ago.
 
+    - Fix broken example in User guide section 18.6. There was a duplicate example which was likely the
+      result of a bad merge at some point in the past.  
+      Resolves: https://github.com/SCons/scons/issues/2983
+
   From Andrew Featherstone
     - Removed unused --warn options from the man page and source code.
 
