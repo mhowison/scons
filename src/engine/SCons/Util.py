@@ -1547,7 +1547,7 @@ def MD5collect(signatures):
     if len(signatures) == 1:
         return signatures[0]
     else:
-        return MD5signature(', '.join(signatures))
+        return MD5signature(', '.join(map(str, signatures)))
 
 
 
